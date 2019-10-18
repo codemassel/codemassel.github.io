@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: 'Shadows Into Light', cursive;
+    background: linear-gradient(to right, rgb(207, 159, 48), rgb(97, 10, 40));
+}
+#navbar {
+    background-color: #131313;
+}
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 20px;
+    font-size: 1.5rem;
+}
+#brand {}
+a {
+    color: #CE9E30;
+}
+li > a:link {
+    text-decoration: none;
+}
+li > a:hover {
+    color: #742329;
+}
+li > a:active {
+    color: #620B28
+}
